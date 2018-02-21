@@ -1,0 +1,19 @@
+@font-face {
+  font-family: PFEncoreSansPro_bd;
+  src: url(../fonts/PFBeauSansPro-Bold.ttf); }
+
+@font-face {
+  font-family: PFEncoreSansPro_it;
+  src: url(../fonts/PFBeauSansPro-Italic.ttf); }
+
+@font-face {
+  font-family: PFEncoreSansPro_lt;
+  src: url(../fonts/PFBeauSansPro-Light.ttf); }
+
+@font-face {
+  font-family: PFEncoreSansPro_rg;
+  src: url(../fonts/PFBeauSansPro-Reg.ttf); }
+
+@font-face {
+  font-family: PFEncoreSansPro_tn;
+  src: url(../fonts/PFBeauSansPro-Thin.ttf); }
