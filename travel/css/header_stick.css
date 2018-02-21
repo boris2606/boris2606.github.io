@@ -1,0 +1,59 @@
+.banner--clone {
+  /* Required styles */
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /*   display: block;
+
+.logo{
+margin:0 auto;
+}
+  .nav_block_menu{
+    display: block;
+    
+    .menu_list{
+      display: block;
+      text-align: center;
+      margin: 130% auto;
+      li{
+        padding: 20px 0 10px 0;
+
+        a{
+          color:#fff;
+          font:900 20px OpenSans;
+          text-transform: uppercase;
+
+          &:hover {
+            color:#39c9da;
+          }
+        }
+      }
+    }
+  } */
+  /* Additional styles */
+  /* Translate -100% to move off screen */
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  /* Animations */
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out; }
+
+/**
+ * Headhesive stick
+ * > `stick` class for the cloned element:
+ *
+ * @example
+ * var options = {
+ *   classes {
+ *     stick: 'banner--stick';
+ *   }
+ * }
+ */
+.banner--stick {
+  /* Translate back to 0%; */
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%); }

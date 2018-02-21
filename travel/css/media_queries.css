@@ -1,0 +1,99 @@
+/* Media Queries for Standard Devices */
+@media screen and (max-width: 769px) {
+  .burger {
+    display: block; }
+  .header_menu {
+    display: none; }
+  .block_with_car {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .text_car_block {
+    text-align: center;
+    margin: 0 auto; }
+  .tit_block_car {
+    margin: 15px 0 auto; }
+  .car_hr,
+  .info_hr {
+    margin: 15px auto; }
+  .btn_start {
+    margin: 15px auto; }
+  .portfolio_box,
+  .portfolio_img_1,
+  .portfolio_img_2,
+  .portfolio_img_3,
+  .portfolio_img_4,
+  .portfolio_img_5,
+  .portfolio_img_6 {
+    max-width: 350px;
+    max-height: 320px; }
+  .hide_btn {
+    margin: 95px 67px; }
+  .blocks_of_service {
+    margin-bottom: 15px; }
+  .block_with_contact {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 0 10px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column; }
+  .block_info {
+    text-align: center; }
+  .address_info {
+    margin-bottom: 20px; }
+  .contact_us_text {
+    display: block;
+    text-align: center; }
+  .block_with_btn {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column; }
+    .block_with_btn button {
+      margin: 15px auto; }
+  .first_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column; }
+  .sub_input {
+    margin: 0 0 0 0;
+    width: 100%;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center; }
+  .f_bk_inp {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    width: 100%; }
+  .form_send textarea {
+    width: 100%;
+    max-width: 100%; }
+  .form_send input,
+  .form_send textarea {
+    margin: 5px auto; } }
+
+@media screen and (max-width: 769px) {
+  .portfolio_box,
+  .portfolio_img_1,
+  .portfolio_img_2,
+  .portfolio_img_3,
+  .portfolio_img_4,
+  .portfolio_img_5,
+  .portfolio_img_6 {
+    max-width: 300px;
+    max-height: 320px; } }

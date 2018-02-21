@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".nav_menu_btn").sideNav({menuWidth:300,edge:"left",closeOnClick:!0,draggable:!0})});

@@ -1,0 +1,1 @@
+$(document).ready(function(){$.ripple(".btn_header",{debug:!1,on:"mousedown",opacity:.4,color:"auto",multi:!1,duration:.7,rate:function(t){return t},easing:"linear"}),$.ripple(".bg_about,.tit_text_why_us,.bg_contacts",{on:"mouseleave",multi:!0,rate:function(t){return t}})});

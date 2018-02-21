@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".menu_links,.menu_links_burger").on("click","a",function(n){n.preventDefault();var t=$(this).attr("href"),e=$(t).offset().top;$("body,html").animate({scrollTop:e},1500)})});
