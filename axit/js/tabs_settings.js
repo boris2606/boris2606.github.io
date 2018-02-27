@@ -1,0 +1,1 @@
+$(function(){$("ul.tabs").delegate("button:not(.current)","click",function(){return $(this).addClass("current").siblings().removeClass("current").parents("div.tabs_content").eq(0).find(">div.tabs_blocks .box").hide().eq($(this).index()).fadeIn(500).show(),!1})});
