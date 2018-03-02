@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".drawer").drawer()});
+$(function(){$(".drawer").drawer()});

@@ -1,0 +1,1 @@
+$.ripple("button, a",{debug:!1,on:"click",opacity:.4,color:"auto",multi:!0,duration:.5,rate:function(t){return t},easing:"linear"});
